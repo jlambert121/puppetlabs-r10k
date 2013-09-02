@@ -1,0 +1,7 @@
+fixtures:
+  repositories:
+    interval: https://github.com/puppetlabs-operations/puppet-interval.git
+    stdlib: https://github.com/puppetlabs/puppetlabs-stdlib.git
+  symlinks:
+    r10k: "#{source_dir}"
+

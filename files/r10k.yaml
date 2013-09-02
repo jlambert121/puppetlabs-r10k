@@ -1,0 +1,9 @@
+:cachedir: '/var/cache/r10k'
+:sources:
+  :my-org:
+    remote: 'git@github.com:my-org/org-shared-modules'
+    basedir: '/etc/puppet/environments'
+
+:purgedirs:
+  - '/etc/puppet/environments'
+
