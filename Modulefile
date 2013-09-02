@@ -9,3 +9,4 @@ source 'https://github.com/puppetlabs-operations/puppet-r10k'
 project_page 'https://github.com/puppetlabs-operations/puppet-r10k'
 
 dependency 'ploperations/interval',       '>= 0.0.1'
+dependency 'puppetlabs/stdlib'

@@ -11,12 +11,13 @@ Synopsis
       configfile => 'puppet:///modules/service/puppet/master/r10k.yaml',
     }
 
-    # Install a cron job to fully update your environment every 20 minutes.
-    include r10k::cron
+    # By default a cron job will be installed to root's crontab which will
+    update the environment every 20 minutes.  This can be configured through
+    the r10k class parameters.
 
 Requirements
 ------------
 
 Currently this is only implemented for Debian squeeze. Pull requests gladly accepted!
 
-This also requires the puppetlabs-operations `interval` function
+This also requires the puppetlabs-operations `interval` function and puppetlabs stdlib module.
